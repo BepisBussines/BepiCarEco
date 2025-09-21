@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Detailing ecológico a domicilio – El Prat</title>
+  <style>
+    :root{
+      --bg:#0B1220; --fg:#FFFFFF; --acc:#2AD7D0; --mut:#D2DCE6;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial;color:var(--fg);background:linear-gradient(180deg,#0B1220 0%,#0F1A2E 100%);}
+    header{max-width:1000px;margin:auto;padding:24px 16px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;letter-spacing:.5px}
+    .pill{border:1px solid rgba(255,255,255,.15);padding:6px 10px;border-radius:999px;font-size:.875rem;color:var(--mut)}
+    .hero{max-width:1000px;margin:12px auto 40px auto;padding:24px 16px;display:grid;gap:18px}
+    .h1{font-size:clamp(28px,6vw,40px);line-height:1.1;font-weight:800}
+    .lead{color:var(--mut);font-size:1.05rem}
+    .card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    @media(min-width:820px){.grid{grid-template-columns:1.2fr .8fr}}
+    .btn{display:inline-block;background:var(--acc);color:#001315;text-decoration:none;font-weight:700;border-radius:12px;padding:14px 16px}
+    ul{margin:0 0 0 18px}
+    footer{max-width:1000px;margin:28px auto;padding:16px;color:var(--mut);font-size:.9rem}
+    .b{font-weight:700}
+    .small{font-size:.9rem}
+    .tag{display:inline-block;background:rgba(42,215,208,.15);color:var(--acc);border:1px solid rgba(42,215,208,.25);padding:6px 10px;border-radius:999px;margin-right:6px}
+    .section{max-width:1000px;margin:0 auto 24px auto;padding:0 16px}
+    .list-kpis{display:flex;gap:10px;flex-wrap:wrap}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Detailing ECO · El Prat</div>
+    <div class="pill">Sin agua · Sin desplazarte</div>
+  </header>
+  <main class="hero">
+    <div class="card">
+      <div class="h1">Limpieza ecológica de coches, donde estés.</div>
+      <p class="lead">Interior a fondo, exterior en seco y llantas impecables. Sin vertidos en vía pública. Vamos a tu casa o trabajo en El Prat y alrededores.</p>
+      <div class="list-kpis">
+        <span class="tag">🕒 90–120 min</span>
+        <span class="tag">💧 0 litros</span>
+        <span class="tag">⭐ Reseñas 5★</span>
+      </div>
+      <p>
+        <a class="btn" href="https://wa.me/_TU_WHATSAPP_?text=Hola,%20quiero%20pedir%20presupuesto%20y%20cita%20para%20detailing%20eco">Reserva por WhatsApp</a>
+        <span class="small" style="margin-left:10px;">o llama: <span class="b">_TU_TELÉFONO_</span></span>
+      </p>
+      <div class="small">Servicios: Básico interior · Premium interior + ozono · Exterior en seco · Llantas · Tapicería · Pulido local.</div>
+    </div>
+
+    <div class="card">
+      <div class="b" style="margin-bottom:6px;">Presupuesto instantáneo</div>
+      <ol class="small">
+        <li>Elige tamaño: utilitario / compacto / SUV / furgón.</li>
+        <li>Marca suciedad: normal / alta / extrema (pelo de mascota).</li>
+        <li>Comparte tu ubicación (estimamos desplazamiento).</li>
+      </ol>
+      <p class="small">Envíanos fotos por WhatsApp para ajustar el precio al céntimo.</p>
+    </div>
+  </main>
+
+  <section class="section">
+    <div class="card">
+      <div class="b" style="margin-bottom:8px;">¿Qué incluye el Premium interior?</div>
+      <ul class="small">
+        <li>Aspirado profundo (Dyson/cepillos suaves) + detallado salpicadero y plásticos.</li>
+        <li>Limpieza cristales, aireaciones, pedales y maletero.</li>
+        <li>Tratamiento anti-olores (opcional ozono) y acondicionador en gomas.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="y"></span> Tu marca de Detailing · El Prat de Llobregat · <a href="mailto:_TU_EMAIL_" style="color:inherit">_TU_EMAIL_</a>
+    <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
